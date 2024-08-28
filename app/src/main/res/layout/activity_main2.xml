@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2FFE4"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="144dp"
+        android:layout_x="58dp"
+        android:layout_y="180dp"
+        android:fontFamily="casual"
+        android:text="Hello!"
+        android:textAlignment="center"
+        android:textColor="#061228"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="340dp"
+        android:layout_height="157dp"
+        android:layout_x="42dp"
+        android:layout_y="297dp"
+        android:background="#EDFFFA" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="164dp"
+        android:layout_x="278dp"
+        android:layout_y="317dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <EditText
+        android:id="@+id/textinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_x="58dp"
+        android:layout_y="319dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showtext" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textinput2"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="385dp"
+        android:hint="IGN" />
+
+</AbsoluteLayout>
