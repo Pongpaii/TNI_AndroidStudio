@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userheight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3EA"
+    tools:context=".week5_B">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="48dp"
+        android:text="PAGE B"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Open5A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="141dp"
+        android:text="Open Pg.A" />
+</AbsoluteLayout>

@@ -13,29 +13,38 @@
         android:theme="@style/Theme.Tni_AndroidStudio_workshop"
         tools:targetApi="31">
         <activity
-            android:name=".workshop"
+            android:name=".week5_C"
+            android:exported="false" />
+        <activity
+            android:name=".week5_B"
+            android:exported="false" />
+        <activity
+            android:name=".week5_A"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".Calculator"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".workshop"
+            android:exported="false" />
         <activity
             android:name=".Profile"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
