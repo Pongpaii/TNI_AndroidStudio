@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8C9"
+    tools:context=".week6_B">
+
+    <TextView
+        android:id="@+id/pgB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="64dp"
+        android:text="Page B"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="144dp"
+        android:text="Result"
+        android:textColor="#802C50"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/PgBtoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="607dp"
+        android:text="Open A" />
+
+    <Button
+        android:id="@+id/PgBtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="606dp"
+        android:text="Open C" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="405dp"
+        app:srcCompat="@drawable/bannr" />
+</AbsoluteLayout>

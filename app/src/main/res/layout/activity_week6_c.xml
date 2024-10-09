@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEFFC0"
+    tools:context=".week6_C">
+
+    <TextView
+        android:id="@+id/pgC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="64dp"
+        android:text="Page C"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/resultC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="139dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#802C50"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pgCtoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="607dp"
+        android:text="Open A" />
+
+    <Button
+        android:id="@+id/PgCtoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="606dp"
+        android:text="Open B" />
+</AbsoluteLayout>

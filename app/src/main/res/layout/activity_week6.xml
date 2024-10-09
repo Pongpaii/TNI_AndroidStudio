@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDEFFF"
+    tools:context=".week6_A">
+
+    <TextView
+        android:id="@+id/pgA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="64dp"
+        android:text="Page A"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/score6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="229dp"
+        android:ems="10"
+        android:hint="Score"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/nickname6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="156dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save6a"
+        android:layout_width="138dp"
+        android:layout_height="65dp"
+        android:layout_x="116dp"
+        android:layout_y="383dp"
+        android:backgroundTint="#ADC9F2"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/PgAtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="606dp"
+        android:text="Open C" />
+
+    <Button
+        android:id="@+id/pgAtoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="607dp"
+        android:text="Open B" />
+
+    <Spinner
+        android:id="@+id/mysp6a"
+        android:layout_width="217dp"
+        android:layout_height="66dp"
+        android:layout_x="83dp"
+        android:layout_y="298dp"
+        android:entries="@array/smth" />
+
+</AbsoluteLayout>
